@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:100%;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+
+div {
+    display: block;
+}
+/*           Общие        */
+
+
+/**   Header           */
+.header{
+    background: url("/img/wrapperBack.jpg") repeat-x center;
+    color:white;
+    height: 270px;
+}
+
+.header .can{
+    margin:15px 0 10px 0;
+}
+
+.header .logo{
+    float:left;
+    width: 198px;
+    height: 198px;
+    border: 1px solid white;
+    border-radius: 16px;
+    background: url("/img/company.png") no-repeat center black;
+}
+
+.header .top{
+    position: relative;
+    float:right;
+    height: 200px;
+    width: 723px;
+    background: url("/img/background.png") no-repeat black center bottom;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+.header .top #title{
+    position: absolute;
+    top: 15px;
+    right:0;
+    left: auto;
+    margin:0;
+    padding:0;
+}
+
+.header .top h1{
+    margin:0;
+    font-style: italic;
+    font-size: 22px;
+    padding: 15px 105px 15px 30px;
+    background: rgba(25, 0, 0, .5);
+    border: 0 solid rgba(0, 0, 0, .3);
+    border-radius: 16px 0 0 16px;
+}
+
+.header .top #contacts{
+    position: absolute;
+    bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 15px 34px;
+    background: rgba(25, 0, 0, .5);
+    border: 0 solid rgba(0, 0, 0, .3);
+    border-radius: 0 16px 16px 16px;
+}
+
+.header .top #contacts #mail{
+    margin-right: 35px;
+}
+
+.header .top #contacts #telephone{
+    margin-left: 35px;
+}
+
+.header #regForm{
+    font-family:Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width:940px;
+    height: 36px;
+    background: url("/img/menuBack.png") no-repeat black center;
+    border: 1px solid white;
+    border-radius: 16px;
+    /*padding-bottom: 8px;*/
+}
+
+.header #regForm label{
+    padding-left: 20px;
+    color: #BFBFBF;
+    font-size: 12px;
+}
+
+.header #regForm label input{
+    border-radius: 6px;
+    width: 115px;
+}
+
+.header #regForm  a{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.header #regForm #basket a{
+    text-decoration: none;
+    font-weight: normal;
+}
+/**   Header           */
+
+
+/**    Navigation         */
+nav{
+    background: url("/img/nav.png") repeat-x #636A6B center;
+}
+
+nav{
+    height: 48px;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+nav .menu {
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+
+nav .menu li{
+    display: inline-block;
+}
+
+nav .menu a{
+    display: block;
+    color: white;
+    padding: 10px 22px;
+}
+
+nav .menu a:hover{
+    color: #FFDE00;
+}
+
+/**    Navigation         */
+
+/**    Main block         */
+.main{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main a{
+    color: #005BC1;
+}
+
+/**    block 1         */
+.block1{
+    margin-right: 40px;
+    width: 175px;
+    float: left;
+}
+
+.block1 ul{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.block1 li{
+    list-style: none;
+}
+
+.block1 li:first-child{
+    margin-top: 25px;
+}
+
+.catalogMenu ul{
+    color: #C24000;
+    margin-bottom: 75px;
+}
+.catalogMenu li{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.news ul{
+    color: #058B7A;
+}
+
+.news li{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #DBDBDB;
+}
+
+.news li:last-child {
+    padding-bottom: 25px;
+    border: none;
+}
+
+.news .data{
+    color: #707070;
+    padding-top: 10px;
+}
+/**    block 1         */
+
+/**    block 2         */
+
+.block2{
+    float: right;
+    max-width: 725px;
+}
+
+.catalogPicture{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.catalogPicture .item{
+    margin-bottom: 50px;
+}
+
+.catalogPicture .item:nth-child(3n+2){
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.catalogPicture .item:last-child{
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.catalogPicture .item a{
+    display: block;
+}
+
+.catalogPicture img{
+    margin-bottom: 10px;
+    outline: 5px solid #797979;
+}
+
+.item:hover img{outline: 5px solid #00B31D;}
+.item:hover a{color: #549EF1;}
+
+
+.text{
+    font-size: 12px;
+    color: #666666;
+}
+
+.text h6{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.text p{
+    margin-top: 20px;
+    line-height: 17px;
+}
+/**    block 2         */
+/**    Main block         */
+
+/**            Footer                    */
+
+footer{
+    background: url("/img/wrapperBack.jpg") repeat-x center;
+    color:white;
+    min-height: 170px;
+    padding-top: 20px;
+}
+
+.foot1, .foot2{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.foot1 a{
+    color: white;
+}
+.foot1 li a{
+    font-size: 12px;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+
+.foot1 li:last-child a{
+    padding-right: 0;
+    border-right: none;
+}
+.copyright{
+    color: #A4A4A4;
+    font-size: 12px;
+}
+
+.copyright h4{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:Tahoma, sans-serif;
+}
+footer li{
+    display: inline-block;
+}
+
+.foot1 .dev{
+    font-size: 12px;
+}
+/**            Footer                    */
+
+
+/**     Позиционирование                 */
+
+.layout-positioner{
+    width:940px;
+    margin:0 auto;
+}
+.layout-positioner:after{
+    content:'';
+    clear:both;
+    display:table;
+}
