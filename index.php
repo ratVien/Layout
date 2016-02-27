@@ -5,7 +5,6 @@
  * Date: 18.02.2016
  * Time: 12:50
  */
-
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
 <head>
     <title>Layout page</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>
 </head>
 
 <body>
@@ -28,41 +27,44 @@
             <div id="contacts">
                 <div id="mail">info@company.ru</div>
                 <div id="telephone">+7 (383) 349-18-49</div>
-                </div>
+            </div>
         </div>
     </div>
     <div class="layout-positioner">
-        <div id="regForm" >
-            <form>
-            <label>Логин: <input id="login"></label>
-            <label>Пароль: <input id="password"></label>
-            <a href="#">Войти</a>
-            <a href="#">Регистрация</a>
+        <div id="reg-block" >
+            <div class="reg-form">
+                <form>
+                    <label>Логин: <input id="login"></label>
+                    <label>Пароль: <input id="password"></label>
+                    <a href="#">Войти</a>
+                    <a href="#">Регистрация</a>
                 </form>
-            <div id="basket"><a href="#"><img src="img/basket.png" alt=""> В <ins>корзине</ins> товаров - 12</a>
-            </div>
-            <!--<div id="basket">-->
+                <div id="basket">
+                    <img src="img/basket.png" alt=""><span>В <a href="#">корзине</a> товаров &#8212 12</span>
+                </div>
             </div>
         </div>
     </div>
+</div>
 <nav>
     <div class="layout-positioner">
         <ul class="menu">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">О компании</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Доставка и оплата</a></li>
-        <li><a href="#">Контакты</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">Контакты</a></li>
         </ul>
     </div>
 </nav>
 
 <div class="main">
     <div class="layout-positioner">
-        <div class="block1">
-            <div class="catalogMenu">
-                <ul>Каталог
+        <div class="sidebar">
+            <div class="catalog-menu">
+                <h3>Каталог</h3>
+                <ul>
                     <li><a href="#">Электронные сигареты</a></li>
                     <li><a href="#">Трубки</a></li>
                     <li><a href="#">Жидкости для заправки</a></li>
@@ -74,7 +76,8 @@
                 </ul>
             </div>
             <div class="news">
-                <ul>Новости
+                <h3>Новости</h3>
+                <ul>
                     <li><a href="#">Поздравительная речь президента международной корпорации Хуа Шэн господина Ли Вея в Международный… </a>
                         <div class="data">2010-03-03</div>
                     </li>
@@ -103,29 +106,29 @@
 
             </div>
         </div>
-        <div class="block2">
-            <div class="catalogPicture">
-                <div class="item"><img src="img/cigarette.png" alt="Cigarettes">
+        <div class="content">
+            <div class="catalog-picture">
+                <div class="item"><a href="#"></><a href><img src="img/cigarette.png" alt="Cigarettes"></a>
                     <a href="#">Электронные сигареты</a>
                 </div>
-                <div class="item"><img src="img/smoke-pipe.png" alt="Smoke-pipes">
+                <div class="item"><a href="#"><img src="img/smoke-pipe.png" alt="Smoke-pipes"></a>
                     <a href="#">Трубки</a></div>
-                <div class="item"><img src="img/fluids.png" alt="Fluids">
+                <div class="item"><a href="#"><img src="img/fluids.png" alt="Fluids"></a>
                     <a href="#">Жидкости для заправки</a>
                 </div>
-                <div class="item"><img src="img/accum.png" alt="Accumulators">
+                <div class="item"><a href="#"><img src="img/accum.png" alt="Accumulators"></a>
                     <a href="#">Аккумуляторы и атомайзеры</a>
                 </div>
-                <div class="item"><img src="img/cartridge.png" alt="Cartridges">
+                <div class="item"><a href="#"><img src="img/cartridge.png" alt="Cartridges"></a>
                     <a href="#">Картриджи</a>
                 </div>
-                <div class="item"><img src="img/Charge.png" alt="Charge">
+                <div class="item"><a href="#"><img src="img/Charge.png" alt="Charge"></a>
                     <a href="#">Зарядные устройства</a>
                 </div>
-                <div class="item"><img src="img/accessories.png" alt="accessories">
+                <div class="item"><a href="#"><img src="img/accessories.png" alt="accessories"></a>
                     <a href="#">Акссессуары</a>
                 </div>
-                <div class="item"><img src="img/Present.png" alt="Present kits">
+                <div class="item"><a href="#"><img src="img/Present.png" alt="Present kits"></a>
                     <a href="#">Подарочные наборы</a>
                 </div>
             </div>
@@ -164,14 +167,14 @@
                     Японии.</p>
             </div>
         </div>
-</div>
+    </div>
 </div>
 <footer>
     <div class="layout-positioner">
         <div class="foot1">
-            <div class="copyright">Copyright ©2007-2010
-            <h4>© “Company”, 2010</h4></div>
-            <ul>
+            <div class="copyright inline">Copyright ©2007-2010
+                <h4>© “Company”, 2010</h4></div>
+            <ul class="inline">
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">Каталог</a></li>
                 <li><a href="#">О компании</a></li>
@@ -179,12 +182,11 @@
                 <li><a href="#">Доставка и оплата</a></li>
                 <li><a href="#">Контакты</a></li>
             </ul>
-            <div class="dev">Разработка сайта -- <a href="#">ITConstruct</a></div>
-
+            <div class="dev inline">Разработка сайта &#8212 <a href="#">ITConstruct</a></div>
         </div>
         <div class="foot2">
-            <img src="img/company.png" height="50" alt="logo">
-            <img src="img/metrica.png" alt="metrica">
+            <a href="#"><img src="img/company.png" height="48" alt="logo"></a>
+            <a href="#"><img src="img/metrica.png" alt="metrica"></a>
         </div>
     </div>
 </footer>
