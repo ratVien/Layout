@@ -13,16 +13,14 @@
 <head>
     <title>Layout page</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width, initial-scale-1.0"/>
-    <link rel="stylesheet" href="css/style.css"/>
-    <!--<link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>-->
+    <link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>
 </head>
 
 <body>
 
 <div class="header">
     <div class="layout-positioner">
-        <div class="logo can"><a href="#"><img src="/img/logo.png" alt="logo"><div>COMPANY</div></a>
+        <div class="logo can">
         </div>
         <div class="top can">
             <div id="title"><h1>Нанотехнологии здоровья</h1></div>
@@ -82,27 +80,22 @@
                 <ul>
                     <li><a href="#">Поздравительная речь президента международной корпорации Хуа Шэн господина Ли Вея в Международный… </a>
                         <div class="data">2010-03-03</div>
-                        <div class="line"></div>
                     </li>
                     <li>
                         <a href="#">Собрание правления киевского филиала</a>
                         <div class="data">2010-02-27</div>
-                        <div class="line"></div>
                     </li>
                     <li>
                         <a href="#">Петропавловскому офису международной корпорации Хуа Шэнисполнился 1 год</a>
                         <div class="data">2010-02-23</div>
-                        <div class="line"></div>
                     </li>
                     <li>
                         <a href="#">Проведение церемонии награждения в бишкекском филиале</a>
                         <div class="data">2010-02-22</div>
-                        <div class="line"></div>
                     </li>
                     <li>
                         <a href="#">Сотрудники иркутского филиала отметили китайский новый год </a>
                         <div class="data">2010-02-15</div>
-                        <div class="line"></div>
                     </li>
                     <li>
                         <a href="#">Празднование китайского нового года в одесском филиале</a>
@@ -140,7 +133,7 @@
                 </div>
             </div>
             <div class="text">
-                <h2>Высокое качество японских ножей</h2>
+                <h6>Высокое качество японских ножей</h6>
 
                 <p>Кухонные японские ножи (ножи masahiro, касуми, хаттори) известных торговых марок уже завоевали
                     популярность благодаря своей прочности и уникальным качествам - остроте и долговечности заточки.

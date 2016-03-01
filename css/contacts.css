@@ -1,0 +1,113 @@
+.content{
+    padding-top: 0;
+}
+
+.main-contacts{
+    font-size: 13px;
+    margin-top: 26px;
+    margin-bottom: 100px;
+}
+
+.main-contacts p{
+    margin-bottom: 22px;
+    line-height: 16px;
+
+}
+
+.content h2{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.content h3{
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.address{
+    display: inline-block;
+    width: 346px;
+    margin-right: 80px;
+}
+
+.address .shops{
+    padding-top: 16px;
+}
+
+.requisites{
+    display: inline-block;
+    width: 295px;
+    vertical-align: top;
+    padding-top: 4px;
+}
+
+.requisites p{
+    margin-bottom: 20px;
+}
+
+.feedback-form h2{
+    padding-bottom: 5px;
+}
+.feedback-form sup{
+    color: #FF0B0B;
+}
+
+.red{
+    color: #FF0B0B;
+}
+
+.grey{
+    color: #424242;
+}
+
+.star{
+    vertical-align: super;
+    color: #FF0B0B;
+}
+.red-block{
+    display: inline-block;
+    margin: 20px auto;
+    font-size: 13px;
+    padding-bottom: 10px;
+    background: #fff1f1;
+    border: 1px solid #FFDCDC;
+}
+
+.red-block div{
+    padding: 7px 35px 0 15px;
+}
+
+.feedback-form{
+    font-size: 12px;
+    float: left;
+}
+
+.field{
+    clear:both; text-align:right;
+}
+label{
+    /*float: left;*/
+    /*margin-bottom: 5px;*/
+}
+.feedback-form input{
+
+    width: 278px;
+    height: 27px;
+    border: 1px solid #C6BFAC;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*margin-left: 8px;*/
+    /*margin-top: 20px;*/
+}
+
+.feedback-form #name, .feedback-form #mail{
+    border-color: #ff0b0b;
+}
+
+/*.feedback-form .red{
+    margin-bottom: 20px;
+}*/

@@ -1,0 +1,38 @@
+.feedback-form{
+    font-size: 12px;
+    float: left;
+}
+
+.field{
+    clear:both; text-align:right;
+}
+label{
+    /*display: inline-block;*/
+    text-align: right;
+    /*margin-bottom: 5px;*/
+}
+.feedback-form input{
+    width: 278px;
+    height: 27px;
+    border: 1px solid #C6BFAC;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    /*margin-left: 8px;*/
+    /*margin-top: 20px;*/
+}
+
+.feedback-form #name, .feedback-form #mail{
+    border-color: #ff0b0b;
+}
+
+textarea{
+
+}
+.input-form{
+    float: left;
+}
+
+.l-field{
+    width: 128px;
+}
