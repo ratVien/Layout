@@ -115,27 +115,27 @@
         </div>
         <div class="content">
             <div class="catalog-picture">
-                <div class="item"><a href="#"></><a href><img src="img/cigarette.png" alt="Cigarettes"></a>
+                <div class="item"><a href="#"></><a href><img src="img/cigarette.jpg" alt="Cigarettes"></a>
                     <a href="#">Электронные сигареты</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/smoke-pipe.png" alt="Smoke-pipes"></a>
+                <div class="item"><a href="#"><img src="img/smoke-pipe.jpg" alt="Smoke-pipes"></a>
                     <a href="#">Трубки</a></div>
-                <div class="item"><a href="#"><img src="img/fluids.png" alt="Fluids"></a>
+                <div class="item"><a href="#"><img src="img/fluids.jpg" alt="Fluids"></a>
                     <a href="#">Жидкости для заправки</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/accum.png" alt="Accumulators"></a>
+                <div class="item"><a href="#"><img src="img/accum.jpg" alt="Accumulators"></a>
                     <a href="#">Аккумуляторы и атомайзеры</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/cartridge.png" alt="Cartridges"></a>
+                <div class="item"><a href="#"><img src="img/cartridge.jpg" alt="Cartridges"></a>
                     <a href="#">Картриджи</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/Charge.png" alt="Charge"></a>
+                <div class="item"><a href="#"><img src="img/Charge.jpg" alt="Charge"></a>
                     <a href="#">Зарядные устройства</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/accessories.png" alt="accessories"></a>
+                <div class="item"><a href="#"><img src="img/accessories.jpg" alt="accessories"></a>
                     <a href="#">Акссессуары</a>
                 </div>
-                <div class="item"><a href="#"><img src="img/Present.png" alt="Present kits"></a>
+                <div class="item"><a href="#"><img src="img/present.jpg" alt="Present kits"></a>
                     <a href="#">Подарочные наборы</a>
                 </div>
             </div>

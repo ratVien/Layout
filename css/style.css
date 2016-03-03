@@ -61,7 +61,7 @@ div {
         float:right;
         height: 200px;
         width: 723px;
-        background: url("/img/background.png") no-repeat black center bottom;
+        background: url("/img/background.jpg") no-repeat black center bottom;
         border: 1px solid grey;
         border-radius: 16px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;

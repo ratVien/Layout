@@ -107,7 +107,7 @@
         </div>
         <div class="content">
             <div class="bread">
-                <ins>Главная</ins> → <ins>Каталог</ins>  → <ins>Электронные сигареты</ins> → Электронная сигарета "Такая-то"
+                <a href="#">Главная</a> → <a href="#">Каталог</a>  → <a href="#">Электронные сигареты</a> → Электронная сигарета "Такая-то"
             </div>
 
             <div class="product-item">
@@ -119,9 +119,9 @@
 
                     <div class="price"><b>820 </b>руб.</div>
                     <div class="quantity">
-                        <a href="#" id="menus"><img src="img/menus.png" alt="-"></a>
+                        <div id="menus"><a href="#" id="menus"><img src="img/menus.png" alt="-"></a></div>
                         <input type="text" value="1">
-                        <a href="#" id="plus"><img src="img/plus.png" alt="+"></a>
+                        <div id="plus"><a href="#" id="plus"><img src="img/plus.png" alt="+"></a></div>
                     </div>
                     <div class="basket">
                         <img src="img/basket-black.png" alt="basket"><a href="#">Добавить в корзину</a>

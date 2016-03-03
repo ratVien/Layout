@@ -116,22 +116,22 @@
                 <input type="text" placeholder="от"> &#8212 <input type="text" placeholder="до"><a href="#">Применить</a></label>
             </div>
             <div class="catalog-picture">
-                <div class="item"><a href><img src="img/cigarette.png" alt="Cigarettes"></a>
+                <div class="item"><a href><img src="img/cigarette.jpg" alt="Cigarettes"></a>
                     <a href="#">Электронные сигарета FD12</a>
                     <div class="item-price"><b>820</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/smoke-pipe.png" alt="Smoke-pipes"></a>
+                <div class="item"><a href="#"><img src="img/smoke-pipe.jpg" alt="Smoke-pipes"></a>
                     <a href="#">Трубка из дерева</a>
                     <div class="item-price"><b>760</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/fluids.png" alt="Fluids"></a>
+                <div class="item"><a href="#"><img src="img/fluids.jpg" alt="Fluids"></a>
                     <a href="#">Жидкость для заправки</a>
                     <div class="item-price"><b>59</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/accum.png" alt="Accumulators"></a>
+                <div class="item"><a href="#"><img src="img/accum.jpg" alt="Accumulators"></a>
                     <a href="#">Аккумулятор TY132</a>
                     <div class="item-price"><b>820</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
@@ -141,17 +141,17 @@
                     <div class="item-price"><b>760</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/Charge.png" alt="Charge"></a>
+                <div class="item"><a href="#"><img src="img/Charge.jpg" alt="Charge"></a>
                     <a href="#">Зарядное устройство</a>
                     <div class="item-price"><b>59</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/accessories.png" alt="accessories"></a>
+                <div class="item"><a href="#"><img src="img/accessories.jpg" alt="accessories"></a>
                     <a href="#">Акссессуар</a>
                     <div class="item-price"><b>820</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>
                 </div>
-                <div class="item"><a href="#"><img src="img/Present.png" alt="Present kits"></a>
+                <div class="item"><a href="#"><img src="img/present.jpg" alt="Present kits"></a>
                     <a href="#">Подарочный набор</a>
                     <div class="item-price"><b>760</b> руб.</div>
                     <div class="buy"><img src="img/basket-black.png" alt="basket"><a href="#">в корзину</a></div>

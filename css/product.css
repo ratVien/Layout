@@ -1,24 +1,29 @@
 .bread{
+    margin-bottom: 25px;
     font-size: 11px;
     color: #9D9D9D;
-    margin-bottom: 25px;
 }
+
+    .bread a{
+        font-size: 11px;
+        color: #9D9D9D;
+        text-decoration: underline;
+    }
 
 .product-item{
     margin-bottom: 10px;
 }
-.product-pic{
-    display: inline-block;
-    /*width: 210px;
-    height: 145px;*/
-    /*margin-bottom: 6px;*/
-}
+    .product-pic{
+        display: inline-block;
+        /*width: 210px;
+        height: 145px;*/
+        /*margin-bottom: 6px;*/
+    }
 
-.product-pic img{
-    /*outline:  5px solid #797979;*/
-    box-shadow: 5px 5px #797979;
-    /*box-sizing: border-box;*/
-}
+        .product-pic img{
+            outline:  5px solid #797979;
+            /*box-sizing: border-box;*/
+        }
 
 .item-description{
     display: inline-block;
@@ -29,45 +34,67 @@
     /*box-sizing: border-box;*/
 }
 
-.item-description h2{
-    font-size: 18px;
-    padding-bottom: 30px;
-}
+    .item-description h2{
+        font-size: 18px;
+        padding-bottom: 25px;
+    }
 
 .price{
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
-.price b{
-    font-size: 24px;
-}
+    .price b{
+        font-size: 24px;
+    }
 
 .quantity{
     display: inline-block;
 }
-.quantity a{
-    font-size: 18px;
-    padding: 2px;
-    padding-top: 0;
-    border: 1px solid #DADADA;
-    background: white;
-}
-.quantity #plus{
-    border-radius: 0 10px 10px 0;
-}
+    .quantity div{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 18px;
+        height: 22px;
+        font-size: 18px;
+        /*padding: 5px;*/
+        /*padding-top: 0;*/
+        border: 1px solid #DADADA;
+        background: white;
+    }
 
-.quantity #menus{
-    border-radius: 10px 0 0 10px;
-}
+    .quantity a{
+        position: absolute;
+    }
 
-.quantity input{
-    width: 33px;
-    height: 22px;
-    margin: -5px;
-    padding: 0;
-    border: 1px solid #DADADA;
-}
+    .quantity #plus{
+        border-radius: 0 6px 6px 0;
+    }
+
+    .quantity #menus{
+        border-radius: 6px 0 0 6px;
+    }
+
+        .quantity #plus a{
+            bottom: 2px;
+            left: 4px;
+        }
+
+        .quantity #menus a{
+            bottom: 5px;
+            left: 5px;
+        }
+
+    .quantity input{
+        vertical-align: middle;
+        text-align: center;
+        width: 33px;
+        height: 22px;
+        margin: -5px;
+        padding: 0;
+        border: 1px solid #DADADA;
+    }
 
 .basket{
     display: inline-block;
