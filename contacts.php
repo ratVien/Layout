@@ -12,7 +12,7 @@
 
 <div class="header">
     <div class="layout-positioner">
-        <div class="logo can">
+        <div class="logo can"><a href="#"><img src="/img/logo.png" alt="logo"><div>COMPANY</div></a>
         </div>
         <div class="top can">
             <div id="title"><h1>Нанотехнологии здоровья</h1></div>
