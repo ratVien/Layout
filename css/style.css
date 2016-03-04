@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width: 481px){
 
 *{
     margin:0;
@@ -20,7 +20,7 @@ div {
 
 /**   Header           */
 .header{
-    background: url("/img/wrapperBack.jpg") repeat-x center;
+    background: url("/img/wrapperBack.png") repeat center;
     color:white;
     height: 270px;
 }
@@ -61,7 +61,7 @@ div {
         float:right;
         height: 200px;
         width: 723px;
-        background: url("/img/background.jpg") no-repeat black center bottom;
+        background: url("/img/background.jpg") repeat space black center bottom;
         border: 1px solid grey;
         border-radius: 16px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
@@ -361,7 +361,7 @@ nav{
 /**            Footer                    */
 
 footer{
-    background: url("/img/wrapperBack.jpg") repeat-x center;
+    background: url("/img/wrapperBack.png") repeat center;
     color:white;
     min-height: 170px;
     padding-top: 15px;
@@ -451,9 +451,176 @@ footer{
 }
 }
 
-@media screen and (max-width: 480px){
-    * {
-        color: red;
+@media (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        /*outline: none;
+
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;*/
+    }
+
+    body{
+        font-family:Arial, sans-serif;
+        min-width: 325px;
+    }
+
+    .header{
+        font-size: 0;
+        max-width: 100%;
+        margin-left: -5px;
+        padding: 0;
+        background: url("/img/wrapperBack.png") repeat top;
+        color:white;
+        height: 290px;
+    }
+
+    .header .can{
+        /*max-width: 100%;*/
+        /*margin:15px 26px 2px 26px;*/
+        position: absolute;
+    }
+
+    .header .logo{
+        margin: 15px 27px;
+        /*position: relative;*/
+        /*float:left;*/
+        max-width: 425px;
+        display: inline-block;
+        width: 425px;
+        height: 200px;
+        border: 1px solid grey;
+        border-radius: 16px;
+        background: black;
+        box-shadow: 0 0 1px rgba(0,0,0,0.5) inset;
+    }
+
+    .header .logo img{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        border: none;
+    }
+
+    .header .logo div{
+        font-size: 24px;
+        font-family:Arial, sans-serif;
+        color: #E7EEEF;
+        text-decoration: none;
+        position: absolute;
+        bottom: 35px;
+        left: 25px;
+    }
+
+    .top{
+        position: relative;
+        padding: 35px 5px 15px 235px;
+    }
+
+    #title{
+        position: relative;
+    }
+    #title h1{
+        position: absolute;
+        z-index: 99;
+        top: 90px;
+        font-style: italic;
+        font-size: 22px;
+        font-family:Arial, sans-serif;
+    }
+
+    #contacts{
+        /*position: relative;*/
+    }
+
+    #telephone{
+        position: absolute;
+        top: 50px;
+        font-size: 17px;
+        font-stretch: semi-condensed;
+        width: 123px;
+    }
+
+    #mail{
+        position: absolute;
+        top: 75px;
+        font-size: 14px;
+    }
+
+    .header #reg-block {
+        margin-left: 25px;
+        margin-top:235px;
+        position: relative;
+        list-style: none;
+        width:425px;
+        height: 34px;
+        background: url("/img/menuBack.png") no-repeat black center;
+        border: 1px solid grey;
+        border-radius: 16px;
+        font-family: Tahoma, sans-serif;
+    }
+
+    .reg-form {
+        margin-top: 10px;
+        padding-left: 25px;
+    }
+
+    .reg-form form{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .reg-form label{
+        display: none;
+    }
+
+    .reg-form label input{
+        display: none;
+    }
+
+    .reg-form a{
+        font-size: 12px;
+        font-weight: bold;
+        margin-right: 20px;
+        color: white;
+    }
+
+
+
+    .reg-form #basket{
+        display: inline-block;
+
+        margin-left: 65px;
+        font-size: 12px;
+    }
+
+    .reg-form #basket span{
+        position: absolute;
+        bottom: 7px;
+        margin-left: 7px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    .reg-form #basket a{
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: normal;
+    }
+
+
+    .layout-positioner{
+        /*width:425px;*/
+        margin:0 auto;
+        position: relative;
+    }
+
+    .layout-positioner:after{
+        content:'';
+        clear:both;
+        display:table;
     }
 }
 /*
