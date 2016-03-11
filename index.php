@@ -16,10 +16,21 @@
     <!--<meta name="viewport" content="width-device-width, initial-scale-1.0"/>-->
     <link rel="stylesheet" href="css/style.css"/>
     <!--<link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>-->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 
-<body>
+<script>
+    $(document).ready(function mobileSize(){
+        if ($(window).width()<='480'){
+            var block1 = $('#1').detach();
+            $('#2').after(block1.html());
+            /*return false;*/
+        }
+        /*$(window).resize(mobileSize);*/
+    });
+</script>
 
+<body>
 <div class="header">
     <div class="layout-positioner">
         <div class="logo can"><a href="#"><img src="/img/logo.png" alt="logo"><div>COMPANY</div></a>
@@ -50,9 +61,21 @@
 </div>
 <nav>
     <div class="layout-positioner">
+        <div class="mobile-menu"><img src="img/iconmenu.png" alt="i"><a href="#">Меню</a></div>
         <ul class="menu">
             <li><a href="#">Главная</a></li>
-            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Каталог</a>
+                <ul id="sub-menu">
+                    <li><a href="#">Электронные сигареты</a></li>
+                    <li><a href="#">Трубки</a></li>
+                    <li><a href="#">Картриджи</a></li>
+                    <li><a href="#">Аккумуляторы и атомайзеры</a></li>
+                    <li><a href="#">Акссессуары</a></li>
+                    <li><a href="#">Зарядные устройства</a></li>
+                    <li><a href="#">Жидкости для заправки</a></li>
+                    <li><a href="#">Подарочные наборы</a></li>
+                </ul>
+            </li>
             <li><a href="#">О компании</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Доставка и оплата</a></li>
@@ -63,7 +86,7 @@
 
 <div class="main">
     <div class="layout-positioner">
-        <div class="sidebar">
+        <div class="sidebar" id="1">
             <div class="catalog-menu">
                 <h2>Каталог</h2>
                 <ul>
@@ -77,7 +100,7 @@
                     <li><a href="#">Подарочные наборы</a></li>
                 </ul>
             </div>
-            <div class="news">
+            <div class="news" >
                 <h2>Новости</h2>
                 <ul>
                     <li><a href="#">Поздравительная речь президента международной корпорации Хуа Шэн господина Ли Вея в Международный… </a>
@@ -114,7 +137,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="catalog-picture">
+            <div class="catalog-picture" id="2">
                 <div class="item"><a href="#"></><a href><img src="img/cigarette.jpg" alt="Cigarettes"></a>
                     <a href="#">Электронные сигареты</a>
                 </div>
@@ -197,5 +220,6 @@
         </div>
     </div>
 </footer>
+
 </body>
 </html>

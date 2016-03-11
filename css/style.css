@@ -184,6 +184,10 @@ nav{
     font-size: 16px;
 }
 
+    nav .mobile-menu{
+        display: none;
+        }
+
     nav .menu {
         list-style: none;
         margin:0 20px;
@@ -206,6 +210,10 @@ nav{
         nav .menu a:hover{
             color: #FFDE00;
         }
+
+    nav .menu li > ul{
+        display: none;
+    }
 
 /**    Navigation         */
 
@@ -239,6 +247,7 @@ nav{
 
     .sidebar li{
         list-style: none;
+        padding-left: 0;
     }
 
     .catalog-menu li:first-child{
@@ -255,7 +264,6 @@ nav{
     }
 
 .news{
-    font-size: 13px;
 }
 
     .news li:first-child{
@@ -271,10 +279,9 @@ nav{
     }
 
     .news li{
-        padding-right: 0;
+        text-align: left;
         list-style: none;
         margin-top: 11px;
-        margin-left: -4px;
         line-height: 16px;
         font-size: 11px;
     }
@@ -294,7 +301,6 @@ nav{
         width: 138px;
         height: 2px;
         background: #dbdbdb;
-        margin-left: 10px;
     }
 /**    sidebar         */
 
@@ -465,6 +471,7 @@ footer{
     body{
         font-family:Arial, sans-serif;
         min-width: 325px;
+        width: 480px;
     }
 
     .header{
@@ -477,77 +484,76 @@ footer{
         height: 290px;
     }
 
-    .header .can{
-        /*max-width: 100%;*/
-        /*margin:15px 26px 2px 26px;*/
-        position: absolute;
-    }
+        .header .can{
+            position: absolute;
+        }
 
-    .header .logo{
-        margin: 15px 27px;
-        /*position: relative;*/
-        /*float:left;*/
-        max-width: 425px;
-        display: inline-block;
-        width: 425px;
-        height: 200px;
-        border: 1px solid grey;
-        border-radius: 16px;
-        background: black;
-        box-shadow: 0 0 1px rgba(0,0,0,0.5) inset;
-    }
+        .header .logo{
+            margin: 15px 27px;
+            /*position: relative;*/
+            /*float:left;*/
+            max-width: 425px;
+            display: inline-block;
+            width: 425px;
+            height: 200px;
+            border: 1px solid grey;
+            border-radius: 16px;
+            background: black;
+            box-shadow: 0 0 1px rgba(0,0,0,0.5) inset;
+        }
 
-    .header .logo img{
-        position: absolute;
-        top: 40px;
-        left: 50px;
-        border: none;
-    }
+            .header .logo img{
+                position: absolute;
+                top: 40px;
+                left: 50px;
+                border: none;
+            }
 
-    .header .logo div{
-        font-size: 24px;
-        font-family:Arial, sans-serif;
-        color: #E7EEEF;
-        text-decoration: none;
-        position: absolute;
-        bottom: 35px;
-        left: 25px;
-    }
+            .header .logo div{
+                font-size: 24px;
+                font-family:Arial, sans-serif;
+                color: #E7EEEF;
+                text-decoration: none;
+                position: absolute;
+                bottom: 35px;
+                left: 25px;
+            }
 
     .top{
         position: relative;
         padding: 35px 5px 15px 235px;
     }
 
-    #title{
-        position: relative;
-    }
-    #title h1{
-        position: absolute;
-        z-index: 99;
-        top: 90px;
-        font-style: italic;
-        font-size: 22px;
-        font-family:Arial, sans-serif;
-    }
+        #title{
+            position: relative;
+        }
 
-    #contacts{
-        /*position: relative;*/
-    }
+            #title h1{
+                position: absolute;
+                z-index: 99;
+                top: 90px;
+                font-style: italic;
+                font-size: 22px;
+                font-family:Arial, sans-serif;
+            }
 
-    #telephone{
-        position: absolute;
-        top: 50px;
-        font-size: 17px;
-        font-stretch: semi-condensed;
-        width: 123px;
-    }
+        #contacts{
+            color: #E7EEEF;
+        }
 
-    #mail{
-        position: absolute;
-        top: 75px;
-        font-size: 14px;
-    }
+            #telephone{
+                position: absolute;
+                top: 50px;
+                font-size: 17px;
+                font-stretch: semi-condensed;
+                width: 123px;
+            }
+
+            #mail{
+                position: absolute;
+                top: 75px;
+                font-size: 14px;
+            }
 
     .header #reg-block {
         margin-left: 25px;
@@ -562,54 +568,293 @@ footer{
         font-family: Tahoma, sans-serif;
     }
 
-    .reg-form {
-        margin-top: 10px;
+        .reg-form {
+            margin-top: 10px;
+            padding-left: 25px;
+        }
+
+            .reg-form form{
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .reg-form label{
+                display: none;
+            }
+
+                .reg-form label input{
+                    display: none;
+                }
+
+
+        .reg-form #basket{
+            display: inline-block;
+            margin-left: 65px;
+            font-size: 12px;
+        }
+
+            .reg-form #basket span{
+                position: absolute;
+                bottom: 7px;
+                margin-left: 7px;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+            }
+
+            .reg-form #basket a{
+                margin-left: 0;
+                margin-right: 0;
+                font-weight: normal;
+            }
+
+
+    nav{
+        padding: 0 25px;
+        background: #7C8384;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+    }
+
+        nav a{
+            color: #ffffff;
+        }
+
+    .mobile-menu{
+        padding: 15px 0;
+        /*margin-bottom: 10px;*/
+    }
+
+        .mobile-menu a{
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 15px;
+        }
+
+            .mobile-menu a:hover{
+                color: #FFE558;
+                text-decoration: none;
+            }
+
+        .mobile-menu img{
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+    nav .menu{
+        display: none;
+        list-style: none;
+        margin-left: 42px;
+        padding-bottom: 30px;
+    }
+
+        nav .menu li{
+            padding-top: 15px;
+            /*margin-top: 15px;*/
+        }
+
+            nav .menu li:nth-child(2){
+                margin-left: -10px;
+                margin-top: 10px;
+                /*-webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;*/
+            }
+
+                nav .menu li:nth-child(2) a{
+                    color: #005BC1;
+                    background: #ffffff;
+                    padding: 10px 10px 15px 15px;
+                    border-radius: 6px;
+                }
+
+                nav .menu li:nth-child(2) ul{
+                    color: #005BC1;
+                    background: #ffffff;
+                    padding: 0 0 15px 5px;
+                    border-radius: 6px;
+                }
+
+                nav .menu li > #sub-menu li{
+                    list-style: none;
+                    display: inline-block;
+                    font-style: italic;
+                    font-size: 15px;
+                }
+
+    #sub-menu{
+        color: #005BC1;
+    }
+
+        .mobile-menu:hover + .menu{
+            display: block;
+        }
+
+        .menu:hover{
+            display: block;
+        }
+
+
+    .main{
+        margin: 40px 25px 55px 25px;
+    }
+
+        .main a{
+            color: #005BC1;
+        }
+
+        .catalog-menu{
+            display: none;
+        }
+
+    .catalog-picture {
+        /*margin-bottom: 5px;*/
+    }
+
+        .catalog-picture .item{
+            display: inline-block;
+            margin-bottom: 50px;
+            font-size: 15px;
+        }
+
+            .catalog-picture .item:nth-child(2n-1){
+                padding-right: 15px;
+            }
+
+            .catalog-picture .item a{
+                display: block;
+            }
+
+                .catalog-picture .item a img{
+                    width: 195px;
+                    height: 135px;
+                    margin-bottom: 6px;
+                    border: 5px solid #797979;
+                }
+
+        .item:hover a img{border: 5px solid #00B31D;}
+        .item:hover > a{color: #549EF1;}
+
+
+    .news{
+        font-size: 0;
+    }
+
+        .news a{
+            font-size: 15px;
+            line-height: 18px;
+        }
+
+            .news li:first-child{
+                margin-top: 16px;
+            }
+
+        .news h2{
+            color: #058B7A;
+            font-size: 21px;
+        }
+
+        .news ul{
+            list-style: none;
+        }
+
+        .news li{
+            padding-right: 0;
+            list-style: none;
+            margin-top: 11px;
+            line-height: 16px;
+            font-size: 11px;
+        }
+
+            .news li:last-child {
+                padding-bottom: 0;
+            }
+
+        .news .data{
+            color: #707070;
+            margin-top: 8px;
+            font-size: 14px;
+            padding-bottom: 18px;
+    }
+
+        .news .line{
+            width: 100%;
+            height: 2px;
+            background: #dbdbdb;
+        }
+
+    .text{
+        font-size: 12px;
+        color: #666666;
+        margin-top: 50px;
+    }
+
+        .text h2{
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+        .text p{
+            margin-top: 15px;
+            line-height: 16px;
+        }
+
+    footer{
+        background: url("/img/wrapperBack.png") repeat center;
+        color:white;
+        min-height: 170px;
+        padding-top: 40px;
+        padding-right: 25px;
         padding-left: 25px;
     }
 
-    .reg-form form{
-        display: inline-block;
-        vertical-align: top;
+    .foot1, .foot2{
+        position: relative;
     }
 
-    .reg-form label{
-        display: none;
+        .foot1 a{
+            color: white;
+        }
+
+        .foot1 li{
+            display: none;
+        }
+
+        .foot1 .dev{
+            position: absolute;
+            font-size: 11px;
+            right: 0;
+            top: 0;
+        }
+
+    .copyright{
+        /*float: left;*/
+        /*position: absolute;*/
+        color: #A4A4A4;
+        font-size: 11px;
     }
 
-    .reg-form label input{
-        display: none;
+        .copyright h4{
+            /*position: absolute;*/
+            /*float: left;*/
+            padding-top: 10px;
+            font-size: 12px;
+            font-weight: bold;
+            font-family:Tahoma, sans-serif;
+        }
+
+    .foot2{
+        padding-top: 15px;
     }
 
-    .reg-form a{
-        font-size: 12px;
-        font-weight: bold;
-        margin-right: 20px;
-        color: white;
-    }
+        .foot2 img{
+            border: none;
+        }
 
-
-
-    .reg-form #basket{
-        display: inline-block;
-
-        margin-left: 65px;
-        font-size: 12px;
-    }
-
-    .reg-form #basket span{
-        position: absolute;
-        bottom: 7px;
-        margin-left: 7px;
-        font-family: Arial, sans-serif;
-        font-size: 12px;
-    }
-
-    .reg-form #basket a{
-        margin-left: 0;
-        margin-right: 0;
-        font-weight: normal;
-    }
-
+        .foot2 a:last-child{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
 
     .layout-positioner{
         /*width:425px;*/
@@ -617,11 +862,11 @@ footer{
         position: relative;
     }
 
-    .layout-positioner:after{
-        content:'';
-        clear:both;
-        display:table;
-    }
+        .layout-positioner:after{
+            content:'';
+            clear:both;
+            display:table;
+        }
 }
 /*
 @media (max-width: 540px){
