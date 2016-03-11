@@ -13,8 +13,9 @@
 <head>
     <title>Layout page</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>
-    <link rel="stylesheet" href="css/catalog.css" media= "(min-width:480px)"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 
 <body>
@@ -49,9 +50,21 @@
 </div>
 <nav>
     <div class="layout-positioner">
+        <div class="mobile-menu"><img src="img/iconmenu.png" alt="i"><a href="#">Меню</a></div>
         <ul class="menu">
             <li><a href="#">Главная</a></li>
-            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Каталог</a>
+                <ul id="sub-menu">
+                    <li><a href="#">Электронные сигареты</a></li>
+                    <li><a href="#">Трубки</a></li>
+                    <li><a href="#">Картриджи</a></li>
+                    <li><a href="#">Аккумуляторы и атомайзеры</a></li>
+                    <li><a href="#">Акссессуары</a></li>
+                    <li><a href="#">Зарядные устройства</a></li>
+                    <li><a href="#">Жидкости для заправки</a></li>
+                    <li><a href="#">Подарочные наборы</a></li>
+                </ul>
+            </li>
             <li><a href="#">О компании</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Доставка и оплата</a></li>
