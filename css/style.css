@@ -701,9 +701,12 @@ footer{
         color: #005BC1;
     }
 
-    .mobile-menu:hover + .menu{
+    /*.mobile-menu:active ~ .menu,
+    .mobile-menu:focus ~ .menu,
+    .mobile-menu:hover ~ .menu,
+    .menu:hover{
         display: block;
-    }
+    }*/
 
     .menu:hover{
         display: block;

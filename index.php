@@ -61,9 +61,9 @@
 </div>
 <nav>
     <div class="layout-positioner">
-        <div class="mobile-menu"><img src="img/iconmenu.png" alt="i"><a href="#">Меню</a></div>
+        <div class="mobile-menu" ><img src="img/iconmenu.png" alt="i"><a href="#">Меню</a></div>
         <ul class="menu">
-            <li><a href="#">Главная</a></li>
+            <li><a href="javascript:void(0);" tabindex="1" >Главная</a></li>
             <li><a href="#">Каталог</a>
                 <ul id="sub-menu">
                     <li><a href="#">Электронные сигареты</a></li>
@@ -220,6 +220,22 @@
         </div>
     </div>
 </footer>
+<script>
+    $(".mobile-menu").click(
+        function () {
+            $("nav .menu").toggle(300);
 
+            /*return false;*/
+        }).click(
+        function (close) {
+            return false;
+        }
+    );
+    $(document).click(
+        function (close) {
+            $("nav .menu").hide(300);
+            /*return false;*/
+        });
+</script>
 </body>
 </html>
