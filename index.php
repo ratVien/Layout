@@ -13,21 +13,21 @@
 <head>
     <title>Layout page</title>
     <meta charset="UTF-8">
-    <!--<meta name="viewport" content="width-device-width, initial-scale-1.0"/>-->
+    <meta name="viewport" content="width-device-width, initial-scale-1.0"/>
     <link rel="stylesheet" href="css/style.css"/>
     <!--<link rel="stylesheet" href="css/style.css" media= "(min-width:480px)"/>-->
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 
-<script>
+<script>/*
     $(document).ready(function mobileSize(){
         if ($(window).width()<='480'){
             var block1 = $('#1').detach();
             $('#2').after(block1.html());
             /*return false;*/
         }
-        /*$(window).resize(mobileSize);*/
-    });
+        /*$(window).resize(mobileSize);
+    });*/
 </script>
 
 <body>
@@ -47,8 +47,8 @@
         <div id="reg-block" >
             <div class="reg-form">
                 <form>
-                    <label>Логин: <input id="login"></label>
-                    <label>Пароль: <input id="password"></label>
+                    <label>Логин: <input id="login" required></label>
+                    <label>Пароль: <input id="password" required></label>
                     <a href="#">Войти</a>
                     <a href="#">Регистрация</a>
                 </form>
@@ -63,7 +63,7 @@
     <div class="layout-positioner">
         <div class="mobile-menu" ><img src="img/iconmenu.png" alt="i"><a href="#">Меню</a></div>
         <ul class="menu">
-            <li><a href="javascript:void(0);" tabindex="1" >Главная</a></li>
+            <li><a href="#">Главная</a></li>
             <li><a href="#">Каталог</a>
                 <ul id="sub-menu">
                     <li><a href="#">Электронные сигареты</a></li>
@@ -86,6 +86,33 @@
 
 <div class="main">
     <div class="layout-positioner">
+        <div class="content">
+        <div class="catalog-picture" id="2">
+            <div class="item"><a href="#"></><a href><img src="img/cigarette.jpg" alt="Cigarettes"></a>
+                <a href="#">Электронные сигареты</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/smoke-pipe.jpg" alt="Smoke-pipes"></a>
+                <a href="#">Трубки</a></div>
+            <div class="item"><a href="#"><img src="img/fluids.jpg" alt="Fluids"></a>
+                <a href="#">Жидкости для заправки</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/accum.jpg" alt="Accumulators"></a>
+                <a href="#">Аккумуляторы и атомайзеры</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/cartridge.jpg" alt="Cartridges"></a>
+                <a href="#">Картриджи</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/Charge.jpg" alt="Charge"></a>
+                <a href="#">Зарядные устройства</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/accessories.jpg" alt="accessories"></a>
+                <a href="#">Акссессуары</a>
+            </div>
+            <div class="item"><a href="#"><img src="img/present.jpg" alt="Present kits"></a>
+                <a href="#">Подарочные наборы</a>
+            </div>
+        </div>
+            </div>
         <div class="sidebar" id="1">
             <div class="catalog-menu">
                 <h2>Каталог</h2>
@@ -137,31 +164,7 @@
             </div>
         </div>
         <div class="content">
-            <div class="catalog-picture" id="2">
-                <div class="item"><a href="#"></><a href><img src="img/cigarette.jpg" alt="Cigarettes"></a>
-                    <a href="#">Электронные сигареты</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/smoke-pipe.jpg" alt="Smoke-pipes"></a>
-                    <a href="#">Трубки</a></div>
-                <div class="item"><a href="#"><img src="img/fluids.jpg" alt="Fluids"></a>
-                    <a href="#">Жидкости для заправки</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/accum.jpg" alt="Accumulators"></a>
-                    <a href="#">Аккумуляторы и атомайзеры</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/cartridge.jpg" alt="Cartridges"></a>
-                    <a href="#">Картриджи</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/Charge.jpg" alt="Charge"></a>
-                    <a href="#">Зарядные устройства</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/accessories.jpg" alt="accessories"></a>
-                    <a href="#">Акссессуары</a>
-                </div>
-                <div class="item"><a href="#"><img src="img/present.jpg" alt="Present kits"></a>
-                    <a href="#">Подарочные наборы</a>
-                </div>
-            </div>
+
             <div class="text">
                 <h2>Высокое качество японских ножей</h2>
 

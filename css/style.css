@@ -134,14 +134,18 @@ div {
     }
 
         .reg-form label input{
-            background: #656D6F;
-            margin-left: 4px;
+            padding-left: 5px;
             border-radius: 6px;
             width: 113px;
             height: 20px;
             outline: none;
         }
 
+        .reg-form label input:invalid{
+            background: #656D6F;
+        }
+
+        .reg-form label input:active,
         .reg-form label input:focus{
             background: #DFE7E9;
         }
@@ -260,7 +264,7 @@ nav{
     }
 
     .catalog-menu ul{
-        margin-bottom: 70px;
+        /*margin-bottom: 70px;*/
     }
 
     .catalog-menu li{
@@ -269,6 +273,7 @@ nav{
     }
 
 .news{
+    margin-top: 70px;
 }
 
     .news li:first-child{
@@ -546,15 +551,15 @@ footer{
             color: #E7EEEF;
         }
 
-            #telephone{
+            #contacts #telephone{
                 position: absolute;
                 top: 50px;
                 font-size: 17px;
                 font-stretch: semi-condensed;
-                width: 123px;
+                width: 150px;
             }
 
-            #mail{
+            #contacts #mail{
                 position: absolute;
                 top: 75px;
                 font-size: 14px;
@@ -757,6 +762,7 @@ footer{
     .news{
         font-size: 0;
     }
+
     .news a{
         font-size: 15px;
         line-height: 18px;

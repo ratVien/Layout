@@ -1,3 +1,12 @@
+
+.main {
+    margin-bottom: 66px;
+}
+
+.news {
+    margin-top: 50px;
+}
+
 .content{
     padding-top: 0;
 }
@@ -5,7 +14,7 @@
 .main-contacts{
     font-size: 13px;
     margin-top: 26px;
-    margin-bottom: 100px;
+    margin-bottom: 73px;
 }
 
 .main-contacts p{
@@ -31,10 +40,15 @@
     display: inline-block;
     width: 346px;
     margin-right: 80px;
+    font-size: 13px;
 }
 
 .address .shops{
     padding-top: 16px;
+}
+
+.address .shops p{
+    margin-top: 5px;
 }
 
 .requisites{
@@ -45,12 +59,17 @@
 }
 
 .requisites p{
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
 .feedback-form h2{
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
+
+.feedback-form span{
+    font-size: 13px;
+}
+
 .feedback-form sup{
     color: #FF0B0B;
 }
@@ -69,7 +88,8 @@
 }
 .red-block{
     display: inline-block;
-    margin: 20px auto;
+    margin-bottom: 2px;
+    margin-top: 18px;
     font-size: 13px;
     padding-bottom: 10px;
     background: #fff1f1;
@@ -77,29 +97,29 @@
 }
 
 .red-block div{
-    padding: 7px 35px 0 15px;
+    padding: 7px 30px 0 15px;
 }
 
 .feedback-form{
     font-size: 12px;
     float: left;
+    margin-right: -5px;
 }
 
-.field{
-    clear:both; text-align:right;
-}
-label{
-    /*float: left;*/
-    /*margin-bottom: 5px;*/
+.feedback-form form{
+    padding: 0;
+    margin: 0;
 }
 .feedback-form input{
-
     width: 278px;
-    height: 27px;
+    height: 30px;
     border: 1px solid #C6BFAC;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     /*margin-left: 8px;*/
     /*margin-top: 20px;*/
 }
@@ -107,6 +127,92 @@ label{
 .feedback-form #name, .feedback-form #mail{
     border-color: #ff0b0b;
 }
+
+.feedback-form label{
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 117px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.feedback-form input{
+    display: inline-block;
+    padding-left: 7px;
+    color: #424242;
+}
+
+.feedback-form .row {
+    margin-top: 16px;
+    /*text-align: right;*/
+}
+
+.feedback-form form .row:nth-child(7){
+    margin-top: 6px;
+}
+
+form .red{
+    margin-left: 135px;
+    margin-top: 7px;
+}
+
+form b{
+    display: block;
+    font-size: 13px;
+    padding-top: 24px;
+    margin-left: 130px;
+}
+
+form textarea{
+    width: 435px;
+    height: 138px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form a{
+    font-size: 13px;
+    font-weight: bold;
+}
+form #submit{
+    color: #2EBA3F;
+    margin-right: 35px;
+}
+
+form #clear{
+    color: #FF0000;
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        display: none;
+    }
+}
+    /*.mobile-menu{
+        padding: 15px 0;
+    }
+
+    .mobile-menu a{
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 15px;
+    }
+
+    .mobile-menu a:hover{
+        color: #FFE558;
+        text-decoration: none;
+    }
+
+    .mobile-menu img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}*/
 
 /*.feedback-form .red{
     margin-bottom: 20px;

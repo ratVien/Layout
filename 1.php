@@ -10,47 +10,34 @@
 
 <body>
 
-<div class="feedback-form">
-    <h2>Форма обратной связи</h2>
-    <sup>*</sup> <span class="grey">— обязательные для заполнения поля</span><br>
-    <div class="red-block red">
-        <div id="message1">Поле «Имя» должно быть заполнено </div>
-        <div id="message2">Пользователь с такой электронной почтой уже зарегистрирован</div>
-        <div id="message3">Поле «Подтерждение пароля» должно быть заполнено</div>
-        <div id="message4">Поле «Пароль» должно быть заполнено</div>
-    </div>
-    <div class="input-form">
-        <div class="l-field">
-            <label for="name">Имя<sup>*</sup></label>
-            <label for="mail">Электронная почта<sup>*</sup></label>
-            <label for="tel">Телефон</label>
-            </div>
-        <div class="i-field">
-            <input type="text" id="name">
-            <input type="text" id="mail">
-            <input type="text" id="tel" value="+7 (983) 534-45-12">
-            <textarea name="info-area" id="info-area" cols="30" rows="10"></textarea>
-        </div>
-        <!--
-            <div class="input-form">
-                <div class="field">
-                    <label for="name">Имя<sup>*</sup></label><input type="text" id="name">
-                </div>
-                <span class="red">Поле «Имя» должно быть заполнено</span>
-        <div class="field">
-            <label for="mail">Электронная почта<sup>*</sup></label><input type="text" id="mail">
-        </div>
-        <span class="red">Поле «Электронная почта» должно быть заполнено</span>
-        <div class="field">
-            <label for="tel">Телефон</label><input type="text" id="tel" value="+7 (983) 534-45-12">
-        </div>
-        <div class="field">
-            <textarea name="info-area" id="info-area" cols="30" rows="10"></textarea>
+<div id="w">
+    <h1>Написать письмо !</h1>
+    <form id="contactform" name="contact" method="post" action="#">
+        <p class="note"><span class="req">*</span> Поля со звездочкой обязательны для заполнения</p>
+        <div class="row">
+            <label for="name">Ваше Имя <span class="req">*</span></label>
+            <input type="text" name="name" id="name" class="txt" tabindex="1" placeholder="Стив Джобс" required>
         </div>
 
-    </div>
-    <label for="info-area">Пожалуйста укажите какого рода информация вас интересует <sup>*</sup></label>
+        <div class="row">
+            <label for="email">E-mail Адрес <span class="req">*</span></label>
+            <input type="email" name="email" id="email" class="txt" tabindex="2" placeholder=" address@mail.ru" required>
+        </div>
+
+        <div class="row">
+            <label for="subject">Тема <span class="req">*</span></label>
+            <input type="text" name="subject" id="subject" class="txt" tabindex="3" placeholder="Тема письма" required>
+        </div>
+
+        <div class="row">
+            <label for="message">Сообщение <span class="req">*</span></label>
+            <textarea name="message" id="message" class="txtarea" tabindex="4" required></textarea>
+        </div>
+
+        <div class="center">
+            <input type="submit" id="submitbtn" name="submitbtn" tabindex="5" value="Отправить Сообщение">
+        </div>
+    </form>
 </div>
--->
 </body>
 </html>
